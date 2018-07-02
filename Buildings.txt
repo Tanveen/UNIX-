@@ -1,0 +1,10 @@
+ID:BuildingName:Address:NumberOfRooms:BuildingManager:TypeOfBuilding
+B101:Neuro:20L:200:Mr.Koshi:Secured
+B102:Chiropractic:60L:400:Mr.Johnson:Secured
+B103:CMC:34 Broad Street:321::secured
+B104:DMC:32 Restlife:345::Insecured
+B102:Blood Centre:323 Washington Ave:988::Secured
+B209:ChiropracticCare:232 Iranistan Ave:20::Secured
+B105:BDS:Water street:200::Secured
+B232:North:Transit Road:234::Secured
+B109:South:Water Front:300::Secured

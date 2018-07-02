@@ -1,0 +1,5 @@
+Pharmacy ID:Name:City:Pharmacist:Contact
+PH101:Walgreens:Bridgeport:Vincent:999-910-9889
+PH222:CVS:Milford:TakeCare:918-090-9852
+PH104:CVSGreens:Westport:Greens:2039087678
+PH102:GreensGarden:Shelton:CVS:323787546

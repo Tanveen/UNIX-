@@ -1,0 +1,7 @@
+%-*s 82PatientID:FirstName:LastName:AdmissionDate:AdmissionTime:Location:Disease:Doctor
+ID:Patient ID:Doctor Name: Drug name:Purchase Units: Unit Price
+%-*s 82P101:Kelly:Terk:02/04/2012:21.00PM:New York:Fever:Dr.Lee
+1:P101:Guniya Makhija:Epilex 100g:3:43
+%-*s 82P104:Guniya:Makhija:04/06/2017:1.00PM:Bridgeport:Heart Attack
+2:P203:Tanveen Kaur:Levipil XR:20:80
+

@@ -1,0 +1,63 @@
+#!/bin/sh
+echo "!-----WELCOME-----!"
+echo "1. Hospital Buildings."
+echo "2. Hospital Rooms."
+echo "3. Doctors."
+echo "----------------------------------"
+echo "4. Insert any Pharmacy to the Books"
+echo "----------------------------------"
+echo "5. Patients Report."
+echo "--------------------------"
+echo "6. LOGOUT"
+echo "-------------------------"
+echo "Enter your choice:" 
+read choice
+echo "__________________________"
+case $choice in
+1)
+clear
+	 ./BuildingMain.sh
+	;;
+2)
+clear
+	 ./RoomMain.sh
+	;;
+3)
+clear
+	 ./DoctorsMain.sh
+	;;
+4)
+	echo "Enter Pharmacy ID"
+	read id
+	echo "Enter name of the Pharmacy"
+	read name
+	echo "Enter the city"
+	read city
+	echo "Enter the name of Pharmacist"
+	read pharmacist
+	echo "Enter the Contact"
+	read contact
+if [[ ! -s Pharmacy.txt ]] 
+then
+	echo "PHARMACY ID":"NAME":"CITY":"PHARMACIST":"CONATCT">>Pharmacy.txt
+	echo "$id":"$name":"$city":"$pharmacist":"$contact">>Pharmacy.txt
+else
+	echo "$id":"$name":"$city":"$pharmacist":"$contact">>Pharmacy.txt
+fi
+awk '{print}' Pharmacy.txt
+ ./StartHere
+;;
+5)
+clear
+	 ./PatientsMain.sh
+	;;
+6)
+	clear
+	echo "YOU ARE SUCCESSFULLY LOGGED OUT"
+	;;
+*)
+	echo "ENTER THE CORRECT CHOICE"
+	 ./StartHere
+	;;
+esac
+

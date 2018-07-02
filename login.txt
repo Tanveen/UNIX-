@@ -1,0 +1,9 @@
+Username:Password
+student:stud
+user:user100
+user1:root123 
+gmakhija:guniya@952
+gmakhija:asd
+gmakhija:tanveen
+gmakhija:qwerty
+iam:werty

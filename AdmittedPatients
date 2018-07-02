@@ -1,0 +1,4 @@
+PatientID:FirstName:LastName:AdmissionDate:AdmissionTime:Location:Disease:Doctor
+P101:Kelly:Terk:02/04/2012:21.00PM:New York:Fever:Dr.Lee
+P104:Guniya:Makhija:04/06/2017:1.00PM:Bridgeport:Heart Attack
+

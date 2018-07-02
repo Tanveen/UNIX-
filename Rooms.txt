@@ -1,0 +1,6 @@
+RoomNumber:RoomType:RoomSize:NumberOfBeds
+101:Single:10sq.ft:1
+104:Shared:30sq.ft:3
+203:shared:23sq.ft:2
+304:single:21sq.ft:1
+333:Shared:98sq.ft:2

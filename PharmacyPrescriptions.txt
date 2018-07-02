@@ -1,0 +1,3 @@
+ID:Patient ID:Doctor Name: Drug name:Purchase Units: Unit Price
+1:P101:Guniya Makhija:Epilex 100g:3:43
+2:P203:Tanveen Kaur:Levipil XR:20:80
